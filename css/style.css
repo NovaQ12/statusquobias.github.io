@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: normal normal normal 100%/normal Alfred Serif Regular, Times, Times New Roman, serif;
+    font: normal normal normal 100%/normal var(--secondary-font);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.box {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+    display: block;
+    width: 110px;
+    height: 120px;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+.nav {
+    width: 100%;
+}
+
+.nav ul {
+    width: 1200px;
+    height: 52px;
+    margin: 0 auto;
+}
+
+.nav li {
+    float: left;
+    height: 52px;
+    line-height: 52px;
+}
+
+.nav li a {
+    padding: 0 95px;
+}
+
+.nav li a:hover {
+    color: orange;
+}
+
+.banner {
+    width: 100%;
+    height: 780px;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    line-height: 120px;
+}
+
+.txt {
+    width: 900px;
+    box-sizing: border-box;
+    padding: 30px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.txt p,
+.txt2 p {
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.bot {
+    width: 100%;
+    height: 450px;
+    margin-top: 50px;
+}
+
+.bot img {
+    width: 400px;
+}
+
+.bot a {
+    float: left;
+    position: relative;
+    display: block;
+    transition: all .3s;
+}
+
+.bot a:hover {
+    transform: translateY(-5px);
+}
+
+.bot a:hover span {
+    color: rgb(29, 169, 216);
+}
+
+.bot span h3 {
+    line-height: 80px;
+}
+
+.bot span {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 400px;
+    color: #fff;
+    text-align: center;
+}
+
+.txt2 {
+    width: 800px;
+    box-sizing: border-box;
+    padding: 30px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.left {
+    float: left;
+}
+
+.left img {
+    margin-top: 50px;
+}
+
+.right {
+    float: right;
+    margin-right: 50px;
+}
+
+.title2 {
+    width: 800px;
+    border-bottom: 1px solid #ddd;
+}
+
+.title2 h1 {
+    text-align: left;
+}
